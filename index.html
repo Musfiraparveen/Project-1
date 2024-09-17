@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+    <style>
+        body {
+            background: rgb(224, 144, 204);
+            background: radial-gradient(circle, rgba(224, 144, 204, 1) 33%, rgba(174, 143, 191, 1) 75%);
+        }
+
+        .container {
+            width: 850px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border: 1px solid #ccc;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius: 25px;
+            transform: translate(-50%, -50%);
+            border: none;
+            background-color: #fff;
+        }
+
+        .image-container,
+        .form-container {
+            display: inline-block;
+        }
+
+        .form-container form input {
+            width: 70%;
+            padding: 10px;
+            margin: 10px 0;
+            outline: none;
+            font-size: 15px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            border: 2px solid rgb(197, 21, 168);
+        }
+
+        form {
+            width: 100%;
+            padding: 20px;
+
+        }
+
+        .form-container {
+            position: absolute;
+            width: 45%;
+            background-color: white;
+
+
+        }
+
+        .image-container {
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+            width: 50%;
+            background-color: #693769;
+        }
+
+        .image-container p {
+            padding: 0 30px;
+            color: white;
+        }
+
+        .equal img {
+            width: 100%;
+        }
+
+        .form-group {
+            position: relative;
+            text-align: center;
+
+        }
+
+        .form-group .icon {
+            position: absolute;
+            top: 33%;
+            right: 19%;
+            padding: 0px 0px;
+        }
+
+        .btn {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            border-radius: 65px;
+            border: 2px solid rgb(197, 21, 168);
+            background-color: rgb(197, 21, 168);
+            padding: 15px;
+            color: white;
+            text-align: center;
+            width: 40%;
+            cursor: pointer;
+        }
+
+        .btn p {
+            margin: 10px 0;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: rgb(177, 99, 157);
+            border: 2px solid rgb(177, 99, 157);;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(197, 21, 168);
+        }
+
+        .icon1 {
+            border-radius: 50%;
+            border: 2px solid black;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #000;
+        }
+
+        .media {
+            margin-top: 25px;
+            text-align: center;
+        }
+        .media a{
+            margin: 5px;
+        }
+
+        .bton {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <h1>New to Brand?</h1>
+            <p>New-to-brand metrics measure how many new customers a brand acquires through its advertisements an order is considered new-to-brand. </p>
+            <div class="bton"><button> <a href="signin.html">LOGIN</a></button></div>
+            <div class="equal">
+                <img src="log.svg">
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <h2>Sign up</h2>
+                <div class="form-group">
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" name="Username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <input type="Email" name="Email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="Password" name="Password" placeholder="Password" required>
+                </div>
+                <div class="btn">
+                   <button><a href="index.html">SIGN UP</a></button> 
+                </div>
+                <p>Or Sign in with social platform</p>
+                <div class="media">
+                    <a href="https://facebook.com" class="icon1">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://google.com" class="icon1">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://twitter.com" class="icon1">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com" class="icon1">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
